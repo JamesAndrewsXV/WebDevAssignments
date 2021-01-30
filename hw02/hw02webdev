@@ -1,0 +1,25 @@
+# This file will automatically load configuration files provided by other
+# applications, such as Drupal or Wordpress. These applications will be made
+# available underneath a path with that package name, such as /drupal8.
+#
+# Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.
+##
+
+# Default server configuration
+#
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /home/jay/hw02/jamesandrewswebdev.com;
+
+        # Add index.php to the list if you are using PHP
+        index index.html animal.html calc.html;
+
+        server_name hw02.jamesandrewswebdev.com;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                try_files $uri $uri/ =404;
+        }
