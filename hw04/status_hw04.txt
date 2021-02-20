@@ -1,0 +1,35 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+James Andrews Jr.
+
+2. What hostname did you deploy your app to?
+hw04.jamesandrewswebdev.com
+
+3. What's the URL of your git for this assignment?
+https://github.com/JamesAndrewsXV/WebDevAssignments
+
+4. How much of the functionality did you complete?
+None
+
+5. Did you successfully deploy? If not, what's broken?
+No - Attempted nginx edits and deploys but couldn't understand what needed to be done.
+
+6. How comfortable do you feel with Elixir now?
+Not comfortable.
+
+7. Which parts of this assignment did you have trouble with, if any?
+Deploying the site
+
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
